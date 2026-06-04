@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 训练/推理产物（由 notebook 自动生成）
+results/
+
+# 模型权重（如需上传请手动 git add -f）
+*.pth
+*.pt
+gopro.pkl
